@@ -1,0 +1,305 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ---- nav-bar ---- */
+#nav-bar
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#headder
+{
+    width: 100vw;
+}
+
+#headder>p
+{
+    width: 100vw;
+    text-align: center;
+}
+.hh
+{
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+#menue
+{
+    list-style: none;
+}
+
+#menue li select
+{
+    border: none;
+}
+
+/* ---- hero ---- */
+
+#hero
+{
+    /* border: 5px solid rgb(0, 0, 0); */
+    width: 100%;
+    margin-top: 9%;
+}
+
+
+#aside-left
+{
+    /* border: 5px solid red; */
+    width: 50%;
+    height: 500px;
+    flex-direction: column;
+}
+
+#aside-right
+{
+    /* border: 5px solid rgb(4, 0, 255); */
+    width: 27%;
+    height: 500px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.package{
+    border: 2px solid black;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+}
+#green
+{
+    background-color: rgb(212, 248, 204);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ddetails
+{
+    /* border: 2px solid black; */
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.sub
+{
+    margin-top: -20px;
+} 
+
+#made-with p
+{
+    border: 2px solid black;
+    width: 40%;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px 0px black;
+}
+
+#form
+{
+    display:flex;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 100px 0px rgb(40, 109, 132);
+    border-radius: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.input input
+{
+    border: none;
+    outline: none;
+}
+
+/* -------courses-------- */
+
+#courses
+{
+    background-color: rgb(197, 241, 251);
+    width: 100%;
+    /* height: 800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#courses h3
+{
+    text-align: center;
+}
+#courses h1
+{
+    text-align: center;
+}
+
+#course-header
+{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 80%;
+}
+
+.container
+{
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 77%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beggin
+{
+    border: 3px solid blue;
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.inter
+{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table
+{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 50%;
+    width: 85%;
+}
+
+.l , .r
+{
+    /* border: 2px solid rgb(111, 0, 255); */
+    height: 100%;
+    width: 85%;
+}
+
+.ppp
+{
+    /* border: 2px solid blue; */
+    padding: 4px 15px;
+    background-color: rgb(205, 241, 253);
+    border-radius: 15px;
+    border: none;
+    color: blue;
+}
+
+.pppp
+{
+    /* border: 2px solid blue; */
+    padding: 4px 15px;
+    background-color: rgb(242, 255, 208);
+    border-radius: 15px;
+    border: none;
+    color: rgb(76, 85, 16);
+}
+
+.fsd
+{
+    color: rgb(116, 2, 255);
+}
+
+#design
+{
+    margin-left: 80%;
+}
+
+/* -----companies----------*/
+
+.conttt
+{
+    width: 90%;
+}
+
+
+/* --------footer----------- */
+
+.foot-cont
+{
+    /* border: 3px solid black; */
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont1, .cont2, .cont3
+{
+    /* border: 3px solid blue; */
+    width: 30%;
+    /* height: 500px; */
+    border-radius:20px;
+}
+
+.f1
+{
+    border: 2px solid gray;
+    width: 100%;
+    height: 40%;
+    border-radius:20px;
+}
+.f2
+{
+    border: 2px solid gray;
+    width: 100%;
+    height: 55%;
+    border-radius:20px;
+}
+.f3
+{
+    border: 2px solid gray;
+    width: 100%;
+    height: 55%;
+    border-radius:20px;
+}
+.f4
+{
+    border: 2px solid gray;
+    width: 100%;
+    height: 40%;
+    border-radius:20px;
+}
+.f5
+{
+    border: 2px solid gray;
+    width: 100%;
+    height: 45%;
+    border-radius:20px;
+}
+.f6
+{
+    border: 2px solid gray;
+    width: 100%;
+    height: 50%;
+    border-radius:20px;
+}
+
+
+
+
