@@ -300,6 +300,102 @@
     border-radius:20px;
 }
 
+/* -----Media Queries---- */
 
+@media (max-width:1000px) {
+    #hero {
+        margin-top: 15%;
+    }
+}
 
+@media (max-width:900px) {
+    #hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aside-left {
+        width: 90%;
+        margin-top: 3%;
+        flex-direction: column;
+    }
+
+    #aside-right {
+        width: 80%;
+        margin: 50px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beggin {
+        border: 3px solid blue;
+        background-color: white;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .inter {
+        /* border: 2px solid rgb(0, 0, 0); */
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:750px) {
+    .foot-cont {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f1,
+    .f2,
+    .f3,
+    .f4,
+    .f5,
+    .f6 {
+        margin-bottom: 2%;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3 {
+        width: 90%;
+        border-radius: 20px;
+
+    }
+
+    #hero {
+        margin-top: 30%;
+    }
+
+}
+
+@media (max-width:470px) {
+    #hero {
+        margin-top: 45%;
+    }
+}
+
+@media (max-width:350px) {
+    #hero {
+        margin-top: 55%;
+    }
+
+}
 
